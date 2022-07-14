@@ -5,8 +5,11 @@ img {
 
 body {
   display: flex;
+  align-items: stretch;
   flex-direction: column;
   gap: 30px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header,
@@ -16,6 +19,7 @@ body {
 .section-three,
 .section-four {
   display: flex;
+  padding-inline: 100px;
 }
 
 .section-three {
@@ -62,7 +66,6 @@ button,
 
 .header,
 .section-one {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -94,6 +97,7 @@ button,
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-inline: 100px;
 }
 
 .footer {
