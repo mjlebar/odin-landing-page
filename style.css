@@ -1,6 +1,8 @@
 .mid-img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25px;
+  border: 5px solid #3882f6;
 }
 
 .title-img {
@@ -15,6 +17,7 @@ body {
   gap: 30px;
   padding: 0px;
   margin: 0px;
+  font-family: "Roboto", "Verdana", sans-serif;
 }
 
 .header,
@@ -28,10 +31,12 @@ body {
 
 .section-one {
   padding-block: 50px;
+  gap: 30px;
 }
 
 .section-three {
   background-color: #e5e7eb;
+  display: flex;
 }
 
 .quote {
@@ -46,6 +51,10 @@ body {
   color: #e5e7eb;
 }
 
+.call {
+  font-weight: bold;
+}
+
 .container,
 .footer {
   background-color: #1f2937;
@@ -58,8 +67,14 @@ body {
 }
 
 button,
-.section-four {
+.container-2 {
   background-color: #3882f6;
+}
+
+button {
+  border-radius: 5px;
+  border: 5px solid #3882f6;
+  color: #e5e7eb;
 }
 
 .info {
@@ -71,6 +86,7 @@ button,
 .logo {
   size: 24px;
   color: #f9faf8;
+  padding-right: 36px;
 }
 
 .header,
@@ -84,6 +100,7 @@ button,
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  gap: 12px;
 }
 
 .section-two {
@@ -91,30 +108,48 @@ button,
   flex-direction: column;
   align-items: center;
   padding-inline: 150px;
+  padding-block: 12px;
+  gap: 12px;
 }
 
 .images {
   display: flex;
-  gap: 15px;
+  gap: 30px;
 }
 
 .section-three {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding-inline: 150px;
+  justify-content: center;
+  padding: 50px 150px;
+}
+
+.attr {
+  font-weight: 700;
 }
 
 .section-four {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 100px;
+}
+
+.container-2 {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding-inline: 100px;
+  justify-content: space-around;
+  padding-block: 36px;
+  flex: auto;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .footer {
   justify-content: center;
   align-items: center;
+  padding-block: 36px;
 }
 
 .title {
@@ -127,6 +162,12 @@ button,
   display: flex;
   align-items: center;
   gap: 15px;
+}
+
+.btn-2 {
+  border-radius: 5px;
+  border: 2px solid #f9faf8;
+  padding: 5px 15px;
 }
 
 ul {
